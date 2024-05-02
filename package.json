@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Teste para o easy panel",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "node index"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
