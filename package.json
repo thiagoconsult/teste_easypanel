@@ -1,0 +1,16 @@
+{
+  "name": "teste_easypanel",
+  "version": "1.0.0",
+  "description": "Teste para o easy panel",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
