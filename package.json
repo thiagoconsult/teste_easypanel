@@ -6,9 +6,12 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "express",
+    "hello-world"
+  ],
+  "author": "Thiago",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.19.2"
   }
