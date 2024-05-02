@@ -1,12 +1,10 @@
 var express = require("express");
 var app = express();
 
-const path = require("path");
-
-app.get("/", function (req, res) {
+app.get("/", (req, res) => {
   res.send("Hello");
 });
 
-app.listen(process.env.PORT ?? 3000, function () {
-  console.log(`Listening on port ${process.env.PORT ?? 3000}...`);
+app.listen(3000, () => {
+  console.log("Listening on port 3000");
 });
